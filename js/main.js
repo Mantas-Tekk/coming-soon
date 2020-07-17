@@ -14,6 +14,6 @@ function updateTime ()
 }
 
 // If you want to see clock is working
-// setInterval (updateTime, 1000);
+setInterval (updateTime, 1000);
 
 renderProgressBars('.column-left', leftProgressBars);
