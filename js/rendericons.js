@@ -1,3 +1,4 @@
+
 function renderIcons( selector, icons ) {
     const count = icons.length;
     const DOM = document.querySelector(selector);
@@ -12,5 +13,4 @@ function renderIcons( selector, icons ) {
     
     return DOM.innerHTML = HTML;
 }
-
 export default renderIcons;
