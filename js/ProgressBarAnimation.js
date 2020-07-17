@@ -18,7 +18,7 @@ function progressBarAnimation(index, progresValue, )
     var style = document.createElement('style');
     style.innerHTML = `#value${index}:before {
                                 content: "${progresValue}";
-                                animation: label${index} 3s;
+                                animation: label${index} 2s;
                                 }
                         ${cssRule}
                                 `;

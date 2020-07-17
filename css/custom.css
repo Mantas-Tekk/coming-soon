@@ -40,7 +40,7 @@ html {
             margin-bottom: 45px;
         }
         .hero-content > .form {
-            width: 90%;
+            /* width: 90%; */
             margin: 0 0 20px;
         }
             .hero-content > .form > input {
