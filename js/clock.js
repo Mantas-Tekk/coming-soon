@@ -15,7 +15,7 @@ function renderClock(selector) {
 
     const label = ['days', 'hours', 'minutes', 'seconds'];
 
-    console.log(time2());
+    // console.log(time2());
 
     for (let i = 0; i < time.length; i++) {
         HTML += `<div class="time">

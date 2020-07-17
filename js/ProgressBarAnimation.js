@@ -2,8 +2,6 @@
 
 function progressBarAnimation(index, progresValue, )
 {
-    console.log("Cool");
-
     let a = progresValue/100;
     let value = 0;
     let cssRule = `@keyframes label${index} {`;
@@ -11,7 +9,6 @@ function progressBarAnimation(index, progresValue, )
     {
         value = a + value;  
         cssRule += `${i}% {content: "${Math.floor(value)}"}`;
-        console.log(value);
     }
     cssRule += `}`;
 
