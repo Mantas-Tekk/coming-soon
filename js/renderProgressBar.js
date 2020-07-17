@@ -1,4 +1,4 @@
-import progressBarAnimation from './js/ProgressBarAnimation.js';
+import progressBarAnimation from './ProgressBarAnimation.js';
 
 function renderProgressBars(selector, data) {
 
