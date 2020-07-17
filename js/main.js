@@ -1,4 +1,4 @@
-import socials from '../data/ /socials.js';
+import socials from '../data/socials.js';
 import renderIcons from './renderIcons.js';
 import renderClock from './clock.js';
 import renderProgressBars from './renderProgressBar.js';
