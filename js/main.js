@@ -1,8 +1,8 @@
-import socials from './data/ /socials.js';
-import renderIcons from './js/renderIcons.js';
-import renderClock from './js/clock.js';
-import renderProgressBars from './js/renderProgressBar.js';
-import leftProgressBars from './data/progresBarData.js';
+import socials from '../data/ /socials.js';
+import renderIcons from '../js/renderIcons.js';
+import renderClock from '../js/clock.js';
+import renderProgressBars from '../js/renderProgressBar.js';
+import leftProgressBars from '../data/progresBarData.js';
 
 renderIcons( '.icons-list', socials );
 renderProgressBars('.column-left', leftProgressBars);
