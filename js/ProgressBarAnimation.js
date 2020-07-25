@@ -5,7 +5,7 @@ function progressBarAnimation(index, progresValue, )
     let a = progresValue/100;
     let value = 0;
     let cssRule = `@keyframes label${index} {`;
-    for(let i = 0; i < 101; i++ )
+    for(let i = 1; i < 101; i++ )
     {
         value = a + value;  
         cssRule += `${i}% {content: "${Math.floor(value)}"}`;

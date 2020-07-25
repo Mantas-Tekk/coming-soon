@@ -13,11 +13,11 @@
         height: 5px;
         border: solid 2px white;
         margin-top: 12px;
-        border-radius: 1px;
+        border-radius: 2px;
         
         /* animation: wheelAnimation duration timing-function delay iteration-count direction fill-mode; */
         animation-name: wheelAnimation;
-        animation-duration: 1s;
+        animation-duration: 1.5s;
         animation-timing-function: linear;
         animation-iteration-count: infinite;
     }

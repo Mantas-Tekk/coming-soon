@@ -5,7 +5,7 @@
     .form > textarea,
     .form > input {
         display: inline-block;
-        width: 100%;
+        width: 90%;
         padding: 8px 0;
         margin-bottom: 12px;
         line-height: 24px;
