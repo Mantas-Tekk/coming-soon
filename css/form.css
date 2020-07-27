@@ -12,6 +12,7 @@
         font-size: 17px;
         border: none;
         border-bottom: 1px solid #999;
+        outline: none;
     }
     .form > textarea {
         min-height: 112px;
