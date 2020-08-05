@@ -5,7 +5,6 @@ function renderClock(selector) {
     let HTML ='';
 
     const time3 = time2();
-    // data
     let time = [493, 9, 23, 34];
     
     time[0] = time3.days;
@@ -14,8 +13,6 @@ function renderClock(selector) {
     time[3] = time3.seconds;
 
     const label = ['days', 'hours', 'minutes', 'seconds'];
-
-    // console.log(time2());
 
     for (let i = 0; i < time.length; i++) {
         HTML += `<div class="time">

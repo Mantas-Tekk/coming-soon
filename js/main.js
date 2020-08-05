@@ -13,9 +13,7 @@ function updateTime ()
 {
     renderClock( '.clock');
 }
-console.log("Hello console user");
 
-// If you want to see clock is working
 setInterval (updateTime, 1000);
 
 
