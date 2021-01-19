@@ -5,7 +5,7 @@ function renderClock(selector) {
     let HTML ='';
 
     const time3 = time2();
-    let time = [493, 9, 23, 34];
+    let time = [606, 9, 23, 34];
     
     time[0] = time3.days;
     time[1] = time3.hours;
