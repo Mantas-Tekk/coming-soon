@@ -5,7 +5,7 @@ function time() {
     let hours = minutes * 60;
     let days = hours * 24;
 
-    let d1 = new Date('2021-1-1 00:00:00');
+    let d1 = new Date('2022-1-1 00:00:00');
     let t1 = d1.getTime();
 
     let d2 = new Date();
